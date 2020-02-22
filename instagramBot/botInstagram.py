@@ -23,9 +23,9 @@ class InstagramBot:
         password_element.send_keys(Keys.RETURN)
         time.sleep(5)
         driver.find_element_by_class_name("HoLwm").click()
-        self.curtir_fotos("minimalism")
+        self.like_photos("minimalism")
 
-    def curtir_fotos(self, hastag):
+    def like_photos(self, hastag):
         driver = self.driver
         driver.get('https://www.instagram.com/explore/tags/'+ hastag +'/')
         time.sleep(5)
@@ -49,5 +49,5 @@ class InstagramBot:
 
 
 
-teste = InstagramBot('teste', 'teste')
-teste.login();
+bot = InstagramBot('test', 'test')
+bot.login();
