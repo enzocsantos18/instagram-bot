@@ -1,6 +1,7 @@
 Done do be used on mozilla.
 
 How to use:
-1 - Download geckodriver and change the path on line 9 to the program path. Link to download: https://github.com/mozilla/geckodriver/releases
-2 - change the hashtag name on the method like_photos in line 26.
-3 - Change the login info in the line 52 to your account login and password.
+1 - download selenium - pip install selenium on prompt
+2 - Download geckodriver and change the path on line 9 to the program path. Link to download: https://github.com/mozilla/geckodriver/releases
+3 - change the hashtag name on the method like_photos in line 26.
+4 - Change the login info in the line 52 to your account login and password.
